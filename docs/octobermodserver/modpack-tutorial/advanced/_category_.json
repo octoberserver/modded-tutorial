@@ -1,0 +1,10 @@
+{
+  "label": "進階教學",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "進階教學"
+  }
+}
