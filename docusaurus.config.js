@@ -76,12 +76,26 @@ const config = {
             position: 'left',
             label: '教學',
           },
-          {to: '/blog', label: '主題文章', position: 'left'},
           {
-            href: 'https://github.com/octoberserver',
-            label: 'GitHub',
+            to: '/blog',
+            label: '主題文章',
+            position: 'left'
+          },
+          {
+            href: 'https://octsrv.org',
+            label: '官網',
             position: 'right',
           },
+          {
+            label: 'Discord',
+            href: 'https://discord.gg/y8tjbRmxdY',
+            position: 'right',
+          },
+          // {
+          //   href: 'https://github.com/octoberserver',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // }
         ],
       },
       footer: {
@@ -105,7 +119,7 @@ const config = {
             items: [
               {
                 label: '官網',
-                href: 'http://octoberserver.net/',
+                href: 'https://octsrv.org/',
               },
               {
                 label: '模組論壇(尚未完成)',
