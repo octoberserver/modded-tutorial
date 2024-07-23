@@ -6,7 +6,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '歡迎來到十月模組教學',
+  title: '歡迎來到十月模組教學 (尚未完成)',
   tagline: '各種模組教學',
   favicon: 'img/logo-blink-2.gif',
 
@@ -14,12 +14,12 @@ const config = {
   url: 'https://octoberserver.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/tutorials',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: '十月模組伺服器', // Usually your GitHub org/user name.
-  projectName: '十月模組教學', // Usually your repo name.
+  projectName: '十月模組教學 (尚未完成)', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '十月模組教學',
+        title: '十月模組教學 (尚未完成)',
         logo: {
           alt: '各種模組教學',
-          src: 'img/logo.png',
+          src: 'img/logo-blink-2.gif',
         },
         items: [
           {
@@ -106,11 +106,11 @@ const config = {
             items: [
               {
                 label: '十月模組伺服器教學',
-                to: '/docs/intro',
+                to: '/docs/octobermodserver/start',
               },
               {
                 label: '其他模組教學',
-                to: '/docs/intro',
+                to: '/docs/other-modded/',
               },
             ],
           },

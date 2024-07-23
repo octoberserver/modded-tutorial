@@ -11,11 +11,11 @@ sidebar_position: 1
 2. 到多人遊戲選單新增伺服器並加入(與原版相同)。
 3. [加入後使用基本功能建立屬於自己的模組家園](how-to-join/start-playing)(或加入別人的家園)。
 4. [加入後需要注意什麼](how-to-join/caution)？
-5. [沒玩過模組嗎？我們有一系列的模組教學喔](/tutorial/docs/other-modded)(如：AE2(應用能源), EnderIO(終界科技), Mekanism(通用機械), ProjectE(等價交換), DraconicEvolution(龍科技))！
+5. [沒玩過模組嗎？我們有一系列的模組教學喔](docs/other-modded)(如：AE2(應用能源), EnderIO(終界科技), Mekanism(通用機械), ProjectE(等價交換), DraconicEvolution(龍科技))！
 ## 傳送門
 ### 模組包如何下載 / 使用
 1. [模組包啟動器使用教學](modpack-tutorial/basic/launcher)
-2. [模組包開不起來怎麼辦](modpack-tutorial/basic/cannot-launch)
+2. [模組包開不起來怎麼辦](modpack-tutorial/basic/trouble-shooting)
 #### 其他模組包版本(不建議新手使用)
 2. [CurseForge版模組包安裝教學](modpack-tutorial/advanced/curseforge)
 3. [傳統包安裝教學](modpack-tutorial/advanced/traditional)
