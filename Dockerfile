@@ -25,4 +25,4 @@ RUN npm run build
 FROM joseluisq/static-web-server AS sws
 WORKDIR /var/docusaurus
 ## Copy the Docusaurus build output.
-COPY --from=prod /opt/docusaurus/build /var/docusaurus
+COPY --from=prod /opt/docusaurus/build /var/docusaurus/public
