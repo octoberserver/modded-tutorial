@@ -1,0 +1,13 @@
+services:
+  modded-tutorial:
+    container_name: modded-tutorial
+    image: ghcr.io/octoberserver/modded-tutorial:latest
+    networks:
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.official-website-2.rule=Host(`tutorial.octsrv.org`)"
+      - "traefik.http.routers.official-website-2.entrypoints=web,websecure"
+networks:
+  web:
+    external: true
