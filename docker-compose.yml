@@ -6,8 +6,8 @@ services:
       - web
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.official-website-2.rule=Host(`tutorials.octsrv.org`)"
-      - "traefik.http.routers.official-website-2.entrypoints=web,websecure"
+      - "traefik.http.routers.modded-tutorial.rule=Host(`tutorials.octsrv.org`)"
+      - "traefik.http.routers.modded-tutorial.entrypoints=web,websecure"
 networks:
   web:
     external: true
